@@ -1,3 +1,5 @@
+//require('locus');
+
 
 function Car(make, model, year, color) {
   this.make = make;
@@ -53,3 +55,5 @@ var Volvo = new Car("Volvo", "244e", 1985, "Blue");
 var Mercedes = new Car("Mercedes", "300d", 1983, "Blue");
 
 module.exports=Car;describe
+
+//eval(locus);
